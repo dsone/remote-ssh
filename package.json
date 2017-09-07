@@ -7,7 +7,8 @@
     "ssh",
     "putty",
     "remote",
-    "sftp"
+    "sftp",
+	"terminal"
   ],
   "activationCommands": {
     "atom-workspace": "remote-ssh:start"
