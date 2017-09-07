@@ -1,19 +1,24 @@
 {
-	"name": "RemoteSSH",
-	"main": "./lib/remote-ssh",
-	"version": "0.0.0",
-	"description": "A simple Putty SSH helper.",
-	"keywords": ["ssh", "putty", "remote", "sftp"],
-	"activationCommands": {
-		"atom-workspace": "remote-ssh:start"
-	},
-	"repository": "https://github.com/dsone/remote-ssh",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-	"dependencies": {
-		"fs-plus": "^3.0.0",
-		"strip-json-comments": "^2.0.1"
-	}
+  "name": "RemoteSSH",
+  "main": "./lib/remote-ssh",
+  "version": "0.1.0",
+  "description": "A simple Putty SSH helper.",
+  "keywords": [
+    "ssh",
+    "putty",
+    "remote",
+    "sftp"
+  ],
+  "activationCommands": {
+    "atom-workspace": "remote-ssh:start"
+  },
+  "repository": "https://github.com/dsone/remote-ssh",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "^3.0.0",
+    "strip-json-comments": "^2.0.1"
+  }
 }
