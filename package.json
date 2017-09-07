@@ -1,14 +1,14 @@
 {
   "name": "Remote-SSH",
   "main": "./lib/remote-ssh",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "A simple Putty SSH helper.",
   "keywords": [
     "ssh",
     "putty",
     "remote",
     "sftp",
-	"terminal"
+    "terminal"
   ],
   "activationCommands": {
     "atom-workspace": "remote-ssh:start"
