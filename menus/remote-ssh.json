@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Start Remote SSH",
+        "command": "remote-ssh:start"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Remote SSH",
+          "submenu": [
+            {
+              "label": "Start",
+              "command": "remote-ssh:start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
