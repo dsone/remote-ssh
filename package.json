@@ -1,7 +1,7 @@
 {
   "name": "Remote-SSH",
   "main": "./lib/remote-ssh",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A simple Putty SSH helper.",
   "keywords": [
     "ssh",
@@ -11,7 +11,10 @@
     "terminal"
   ],
   "activationCommands": {
-    "atom-workspace": ["remote-ssh:start", "remote-ssh:create-config"]
+    "atom-workspace": [
+      "remote-ssh:start",
+      "remote-ssh:create-config"
+    ]
   },
   "repository": "https://github.com/dsone/remote-ssh",
   "license": "MIT",
