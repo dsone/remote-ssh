@@ -1,3 +1,6 @@
+## 0.8.1 - Bugfix Release
+* Removed leftover config test, leading to loading issues
+
 ## 0.8.0 - Bugfix Release
 * Fixed an issue with an empty session variable in .ftpconfig, preventing Putty from connecting to the server as intended by the user
 
