@@ -10,12 +10,6 @@
     "sftp",
     "terminal"
   ],
-  "activationCommands": {
-    "atom-workspace": [
-      "remote-ssh:start",
-      "remote-ssh:create-config"
-    ]
-  },
   "repository": "https://github.com/dsone/remote-ssh",
   "license": "MIT",
   "engines": {
