@@ -1,3 +1,6 @@
+## 0.8.2 - Bugfix Release
+* Added more error handling to catch an odd issue with fs-plus.js or a similar node_module writing/reading the config file.
+
 ## 0.8.1 - Bugfix Release
 * Removed leftover config test, leading to loading issues
 
