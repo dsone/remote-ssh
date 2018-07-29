@@ -1,3 +1,7 @@
+## 0.9.1 - Feature Release
+* Options added, enabling default ssh client, adds Mac and Linux support
+* Option added for copying the password to the clipboard
+
 ## 0.8.2 - Bugfix Release
 * Added more error handling to catch an odd issue with fs-plus.js or a similar node_module writing/reading the config file.
 

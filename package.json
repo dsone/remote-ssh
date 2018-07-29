@@ -18,5 +18,19 @@
   "dependencies": {
     "fs-plus": "^3.0.0",
     "strip-json-comments": "^2.0.1"
+  },
+  "configSchema": {
+    "copyPassword": {
+      "title": "Copy Password",
+      "description": "Always copy the password to my clipboard instead of using it as a parameter",
+      "type": "boolean",
+      "default": true
+    },
+    "useSSH": {
+      "title": "Use default SSH Client",
+      "description": "Use default built-in SSH client (ie. on Mac, Linux, etc.).<br>The Password is always copied to clipboard with this option",
+      "type": "boolean",
+      "default": false
+    }
   }
 }
