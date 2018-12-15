@@ -1,4 +1,10 @@
-## 0.9.1 - Feature Release
+## 0.11.0 - Feature Release
+* Rearranged options, forcing a specific order in settings view
+* Added new (opt-in) command to scan ftpconfig files and a search function, available via CTRL+ALT+S and CTRL+ALT+D
+* Added two new entries in ftpconfig rs_name and rs_tags for the search function to name and tag SSH connections
+* Added ability to configure search result formatting
+
+## 0.10.0 - Feature Release
 * Options added, enabling default ssh client, adds Mac and Linux support
 * Option added for copying the password to the clipboard
 
