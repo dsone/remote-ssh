@@ -16,21 +16,40 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "latest",
     "fs-plus": "^3.0.0",
     "strip-json-comments": "^2.0.1"
   },
   "configSchema": {
-    "copyPassword": {
+    "10_useSSH": {
+      "title": "Use default SSH Client",
+      "description": "Use default built-in SSH client (ie. on Mac, Linux, etc.).<br>The Password is always copied to clipboard with this option",
+      "type": "boolean",
+      "default": false
+    },
+    "20_copyPassword": {
       "title": "Copy Password",
       "description": "Always copy the password to my clipboard instead of using it as a parameter",
       "type": "boolean",
       "default": true
     },
-    "useSSH": {
-      "title": "Use default SSH Client",
-      "description": "Use default built-in SSH client (ie. on Mac, Linux, etc.).<br>The Password is always copied to clipboard with this option",
+    "30_scanConfig": {
+      "title": "Scan for ftpconfig files",
+      "description": "If this is enabled, you need to fill in the folder(s) to scan below.",
       "type": "boolean",
       "default": false
+    },
+    "40_globalProjectFolder": {
+      "title": "Scan these folders for .ftpconfig files",
+      "description": "This is the absolute path where all your projects lie in their separate folders. I.e: `/home/user/my-atom-projects` with subfolders `/project1`, `/project2`, etc. If you have multiple such \"global\" folders, you can enter multiple paths separated by comma.",
+      "type": "string",
+      "default": ""
+    },
+    "50_searchPrimary": {
+      "title": "Configure display format of search results",
+      "description": "Define your custom format for the first line of search results, use keywords `{projectName}` for `rs_name`, `{folderName}` for the folder's name, and/or `{hostName}` for the `host` in .ftpconfig. HTML supported.",
+      "type": "string",
+      "default": "{projectName}<small class=\"pull-right\">{folderName}</small>"
     }
   }
 }
