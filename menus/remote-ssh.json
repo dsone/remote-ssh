@@ -25,6 +25,10 @@
 						{
 							"label": "Create .ftpconfig",
 							"command": "remote-ssh:create-config"
+						},
+						{
+							"label": "Toggle Modal",
+							"command": "remote-ssh:toggle-search"
 						}
 					]
 				}
