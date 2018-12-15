@@ -84,7 +84,7 @@ Useful alternative, closing div after small is by purpose to close the first lin
 ```
 
 ### Example with alternative
-![Ideally here should be displayed images/rssh.gif](/images/rssh.gif)
+![Ideally here should be displayed images/rssh.gif](./images/rssh.gif)
 
 ## Alternative SSH clients
 To work with any other ssh client that ssh client must be named "ssh" and in your environment path.
