@@ -1,10 +1,13 @@
-## 0.12.0 - Bugfix and refactoring Release
+## 0.13.0 - Bugfix and refactoring Release
 * New notifications here and there instead of silent `console.error`s that no one sees
 * Scanning project folder on startup is only done if enabled in settings and if global project folder setting is non-empty, instead of failing silently
 * Enabling project folder starts scanning immediately only if the global project folder is non-empty as well (ie. was set beforehand), otherwise you need to trigger scanning after setting the project folders via `CTRL+ALT+D` manually
 * Fixed an issue where a project folder like `C:/AtomProjects/superproject/subproject` itself wasn't included in the scanning, only its subfolders, contradicting the description in the README
 * [https://github.com/dsone/remote-ssh/issues/9](#9) Fixed issue with SSH keys inside PUTTY, when `pass` inside .ftpconfig was rightfully not set
 * [https://github.com/dsone/remote-ssh/issues/9](#4) Similar to #9 but for non-Win32 platforms when password isn't set
+
+## 0.12.0
+* Skipped - because `apm publish minor` doesn't increase what is available on atom.io but what is saved inside package.json :)
 
 ## 0.11.0 - Feature Release
 * Rearranged options, forcing a specific order in settings view
