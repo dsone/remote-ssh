@@ -1,7 +1,7 @@
 {
-  "name": "Remote-SSH",
+  "name": "remote-ssh",
   "main": "./lib/remote-ssh",
-  "version": "0.11.0",
+  "version": "0.13.0",
   "description": "A simple Putty SSH helper.",
   "keywords": [
     "ssh",
