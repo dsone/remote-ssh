@@ -30,7 +30,7 @@ A present non-empty `session` takes precedence over any other option in the conf
 
 ## Remote SSH specific options in .ftpconfig
 There is support for two new entries available inside .ftpconfig:  
-`rs_name`: String, an alias for the project. Should be unique for quick searches.  
+`rs_name`: String, an alias title for the project. Should be unique for quick searches. If not set `host` is used as fallback if possible.  
 `rs_tags`: Array of strings, tags for a project. Encouraged to be shared by multiple projects.  
 
 These two options are entirely optional to use. They only take effect when you check the setting `Scan for ftpconfig files` (opt-in) and set the appropriate project folders all your Atom projects reside in.  
