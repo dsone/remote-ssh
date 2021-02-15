@@ -1,3 +1,9 @@
+## 0.13.2 - Update in changelog
+* Update in changelog
+
+## 0.13.1 - Bugfix Release
+* Reverted name change in package.json, it breaks activation
+
 ## 0.13.0 - Bugfix and refactoring Release
 * New notifications here and there instead of silent `console.error`s that no one sees
 * Scanning project folder on startup is only done if enabled in settings and if global project folder setting is non-empty, instead of failing silently
